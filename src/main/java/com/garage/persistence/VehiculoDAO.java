@@ -1,6 +1,6 @@
 package com.garage.persistence;
 
-import com.garaje.model.Vehiculo;
+import com.garage.model.Vehiculo;
 import java.sql.*;
 import java.util.*;
 
