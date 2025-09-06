@@ -1,2 +1,4 @@
 # Garage
-Taller numero 2 garage - JOSE LUIS ORDOÑEZ DIAZ / Juan Manuel Hernandez Sanchez
+Taller numero 2 garage 
+Integrantes: JOSE LUIS ORDOÑEZ DIAZ / JUAN MANUEL HERNANDEZ SANCHEZ
+Grupo: E191P
