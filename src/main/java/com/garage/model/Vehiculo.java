@@ -117,4 +117,11 @@ public class Vehiculo {
         this.propietario
                 = propietario;
     }
+
+    @Override
+    public String toString() {
+        return "Vehiculo{" + "id=" + id + ", placa=" + placa + ", marca=" + marca + ", modelo=" + modelo + ", color=" + color + ", propietario=" + propietario + '}';
+    }
+    
+    
 }
