@@ -12,6 +12,7 @@ public class Vehiculo {
     private String modelo;
     private String color;
     private String propietario;
+    
 
     /**
      * Constructor vacío (requerido por JavaBeans)
@@ -31,6 +32,16 @@ public class Vehiculo {
         this.color = color;
         this.propietario = propietario;
     }
+
+    public Vehiculo(String placa, String marca, String modelo, String color, String propietario) {
+        this.placa = placa;
+        this.marca = marca;
+        this.modelo = modelo;
+        this.color = color;
+        this.propietario = propietario;
+    }
+    
+    
 // Getters y setters con JavaDoc en cada uno
 
     /**
