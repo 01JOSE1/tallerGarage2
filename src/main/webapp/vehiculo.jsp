@@ -26,6 +26,14 @@
                 </div>
             </c:if>
 
+            <!-- NOTIFICACIÓN ESPECIAL -->
+            <c:if test="${not empty notificacion}">
+                <div class="alert alert-warning alert-dismissible fade show" role="alert">
+                    <i class="bi bi-bell-fill"></i> ${notificacion}
+                    <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+                </div>
+            </c:if>
+
             <!-- Mensajes de error -->
             <c:if test="${not empty error}">
                 <div class="alert alert-danger alert-dismissible fade show" role="alert">
